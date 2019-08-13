@@ -14,7 +14,7 @@ pipeline {
     	    	kubernetes {
       		    cloud 'kubernetes'
       		    label 'ubuntupod'
-      		    yamlFile 'jenkins/podspecs/ubuntu.yaml'
+      		    yamlFile 'podspecs/ubuntu.yaml'
 		        }
 	        }
 	        steps {
