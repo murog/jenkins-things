@@ -15,7 +15,7 @@ pipeline {
       		    cloud 'kubernetes'
       		    label 'ubuntupod'
       		    yamlFile 'podspecs/ubuntu.yaml'
-		        }
+    		        }
 	        }
 	        steps {
 	    	    container('ubuntu') {
